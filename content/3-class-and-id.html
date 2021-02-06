@@ -1,0 +1,30 @@
+<!-- allow the css property for those element who
+    belong to specific class or id
+    syntax: .class_name or #id_name -->
+<!-- IDs should only be used once per page -->
+
+<html>
+    <head>
+        <title>Classes and IDs</title>
+        <style type="text/css">
+            .abc{ color: green; }
+            .def{ font-size: 200%; }
+            #pqr{ color: indigo; font-size: x-large; }
+            #und{ text-decoration: underline; }
+        </style>
+    </head>
+
+    <body>
+        <h1 class="abc"> CSS is cool </h1>
+        <p class="def"> Hey, My name is Prankit Agarwal </p>
+        <p class="abc"> I am pursuing BTECH form CSE .</p>
+        <p class="abc def"> I am an android developer. </p>
+        <!-- use css for a particular word or phase inside
+            a paragraph, use spam tag and define id/class-->
+        <p id="pqr"> I am learning 
+            <span class="abc" id="und"> 
+                html, css, jquery and node.js
+            </span>
+        </p>
+    </body>
+</html>
