@@ -1,0 +1,32 @@
+<!-- Relative position (we can move the element anywhere
+    but be in the page), Absolute position (takes the 
+    element out of the page and allow to move the 
+    relative to the top left page, can move on scroll), 
+    fixed position (does the same thing but keeps the 
+    element fixed, doesn't move even on scrolling)
+    if overlap, more z-index will appear on top 
+    opacity 1-solid, 0-invisible -->
+
+<html>
+    <head>
+        <title>Positioning</title>
+        <style type="text/css">
+            #first-div { z-index: 3; opacity: 0.5;
+                color: #4285F4; width: 200px;
+                background-color: #CEF6CE;
+                position: relative; left: 200px;
+                top: 100px; }
+            #second-div { z-index: 2; width: 200px;
+                background-color: #BAB4F7;
+                position: relative; left: 30px; }
+        </style>
+    </head>
+    <body>
+        <div id="first-div">
+            <p>CSS is cool</p>
+            <p>My name is Prankit Agarwal</p> </div>
+        <div id="second-div">
+            <p>I am an android developer</p>
+            <p>I love css</p> </div>
+    </body>
+</html>
